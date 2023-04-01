@@ -50,7 +50,7 @@ const verifyToken = require('../middlewares/verifyToken');
              <strong style="">
              Hai!.. ${req.body.name} , we welcome to our plateform
              <a style="background-color:blue; color:white; padding:5px, border-radius:5px" 
-             href="http://localhost:3000/user/verify/${token}">
+             href="https://ecomserver.onrender.com/user/verify/${token}">
              Verify Email 
              </a>
              </strong>
